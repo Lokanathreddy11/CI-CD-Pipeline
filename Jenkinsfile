@@ -19,7 +19,7 @@ pipeline {
         stage('Clone repo') {
             steps {
                 sh 'init'
-                sh ''
+                sh 'https://github.com/Lokanathreddy11/CI-CD-Pipeline.git'
             }
         }
     }
